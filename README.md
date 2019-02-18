@@ -1,9 +1,9 @@
 # nv-tools
 Nvidia Control Scripts
 
-fan-control.sh inspired by post by 'Jeremiah' on Ubuntu forum for controlling nvidia fans with a fan ratio based on temperature
+fan-control.sh inspired by post by 'Jeremiah' on Ubuntu forum (https://askubuntu.com/questions/766110/adjusting-an-nvidia-gpus-fan-curve) for controlling nvidia fans with a fan ratio based on GPU temperature
 
-original script updated to dyamically detect number of installed Nvidia GPUs and independant setting of fan for each GPU based on 
+Original script updated to dyamically detect number of installed Nvidia GPUs and independant setting of fan for each GPU based on 
 temperature. Script uses 'nvidia-settings' and 'nvidia-smi' to determine temps and set new fanspeed. 
 
 Features

@@ -6,13 +6,13 @@
 # Logic added by Anton Rager to manage multiple GPUs
 #
 # nvidia-xconfig needs to be configured
-# for multi-GPU support
+# for multi-GPU support and coolbits for fan control (coolbits 4). coolbits here also allows OC
 #
 # 'cd /etc/X11/'
 # 'sudo nvidia-xconfig --enable-all-gpus'
-# 'sudo nvidia-xconfig --cool-bits=4' 
+# 'sudo nvidia-xconfig --cool-bits=28' 
 
-# startup delay
+# startup delay if used with init
 # sleep 30
 
 # set persistance mode
